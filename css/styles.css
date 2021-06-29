@@ -1,0 +1,268 @@
+/*Стилізація верхнього меню секції HEADER*/
+
+/*Логотип WebStudio*/
+.logo{
+    font-family: Raleway; 
+    font-style: normal; 
+    font-weight: bold; s
+    font-size: 26px; 
+    line-height: 31px;
+/* identical to box height */ 
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none
+    text-shadow: 0 4 4
+    rgba(0,0.0,0.25);
+    text-decoration: none /*прибирає підкреслення*/
+}
+.logo-web
+{
+    color:#2196f3
+}
+.logo-s
+{
+    color:black
+}
+/*Стилізація блокім меню: Студія,Потфоліо...*/
+.menu-link{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 1.14; 
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+    text-decoration: none
+}
+.menu-link:hover,
+.menu-link:focus
+{
+    color: #2196f3
+}
+
+.menu-link.current
+{
+    color: #2196f3
+}
+
+/*Стилізація блоків меню тел, майл*/
+.mail-link{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 1.14; 
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+    text-decoration: none
+}
+.tel-link
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 1.14; 
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none
+}
+.mail-link:hover,
+.mail-link:focus
+{
+    color: #2196f3
+}
+.tel-link:hover,
+.tel-link:focus
+{
+    color: #2196f3
+}
+
+
+/*Стилізація секції HERO*/
+.hero-z
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 900; 
+    font-size: 44px; 
+    line-height: 1.36;
+    color: #FFFFFF;
+    background: #2f303a;
+}
+.modal-btn 
+{
+    background: #188ce8;
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 16px; 
+    line-height: 30px;
+    /* identical to box height, 187% */
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*Стилізація секцій */
+/*Секція особенності Section-1*/
+.hero-list
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 14px; 
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.hero-list-item
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 14px; 
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*Секція чим займаємося Section-2*/
+.section-work
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 36px; 
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+
+/*Секція наша команда Section-3*/
+.section-our-team
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.section-profession
+{
+    
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 16px; 
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*Стилізація секяції footer*/
+
+.footer
+{
+    background: #2F303A;
+}
+.logo-footer
+{
+    font-family: Raleway; 
+    font-style: normal; 
+    font-weight: bold; s
+    font-size: 26px; 
+    line-height: 1.19;
+/* identical to box height */ 
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none
+    text-shadow: 0 4 4
+    rgba(0,0.0,0.25);
+    text-decoration: none /*прибирає підкреслення*/ 
+}
+.logo-footer-web
+{
+    color:#2196f3
+}
+.logo-footer-s
+{
+    color:white
+}
+.footer-adres-1
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 14px; 
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-adres-2
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 14px; 
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;  
+}
+
+/*portfolio.html*/
+/*Стилізація та сторінки portfolio*/
+
+.modal-btn-portfolio
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}   
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus
+{
+    color: #FFFFFF;
+    background: #2196f3;
+}
+
+.portfolio-list
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 18px; 
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-list-item
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 16px; 
+    line-height: 1.85;
+    letter-spacing: 0.06em;
+    color: #757575;
+}
+.list
+{
+    list-style: none; /*прибирає точки в списку*/
+}
