@@ -1,5 +1,77 @@
 /*Стилізація верхнього меню секції HEADER*/
+/*Обнуление отступов*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img{
+    display: block;
+}
+/*Обнуление отступов*/
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*header*/
+.header-container
+{
+    display: flex;
+    align-items: center;
+}
+.navigation
+{
+    display: flex;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+}
+.adress
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+    margin-right: 93px;
+}
+.list:not(:last-child)
+{
+    margin-right: 50px;
+}
+
+.list-adress
+{
+    list-style: none; /*прибирає точки в списку*/
+    margin-right: auto;
+}
+.mail-link
+{
+    margin-left: 331px;
+}
+.tel-link
+{
+    margin-left: 50px;
+}
 /*Логотип WebStudio*/
 .logo{
     font-family: Raleway; 
@@ -7,6 +79,7 @@
     font-weight: bold; s
     font-size: 26px; 
     line-height: 31px;
+
 /* identical to box height */ 
     letter-spacing: 0.03em;
     color: #2196F3;
@@ -14,7 +87,7 @@
     text-shadow: 0 4 4
     rgba(0,0.0,0.25);
     text-decoration: none /*прибирає підкреслення*/
-}
+    }
 .logo-web
 {
     color:#2196f3
@@ -82,6 +155,21 @@
 
 
 /*Стилізація секції HERO*/
+.section-hero
+{
+    background: #2f303a;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.hero-z
+{
+    align-items: center;
+    width: 696px;
+    margin-left: 245px;
+    margin-bottom: 30px;
+
+}
 .hero-z
 {
     font-family: Roboto; 
@@ -90,27 +178,53 @@
     font-size: 44px; 
     line-height: 1.36;
     color: #FFFFFF;
-    background: #2f303a;
-}
+} 
+
 .modal-btn 
 {
-    background: #188ce8;
-    font-family: Roboto; 
-    font-style: normal; 
-    font-weight: bold; 
-    font-size: 16px; 
-    line-height: 30px;
-    /* identical to box height, 187% */
-    display: flex; 
-    align-items: center; 
-    text-align: center; 
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    cursor: pointer;
+ background: #188ce8;  
+ border-radius:4px ; 
+ padding: 10px 32px;
+ font-family: Roboto; 
+ font-style: normal; 
+ font-weight: bold; 
+ font-size: 16px; 
+ line-height: 30px;
+ /* identical to box height, 187% */
+ align-items: center; 
+ text-align: center; 
+ letter-spacing: 0.06em;
+ border-radius:4px ;
+ color: #FFFFFF;
+ cursor: pointer; 
 }
 
 /*Стилізація секцій */
 /*Секція особенності Section-1*/
+.section
+{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features-container
+{
+    display: flex;
+    align-items: center;
+}
+.features-menu
+{
+    display: flex;
+    align-items: center;
+}
+/*.list{
+    width: 270px;
+}
+.list:not(:last-child)
+{
+    margin-right: 30px;
+}
+
+*/
 .hero-list
 {
     font-family: Roboto; 
@@ -144,10 +258,32 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
+.work-section
+{
+    display: flex;
+    align-items: center;
+}
+.list1:not(:last-child)
+{
+    margin-right: 30px;
+    list-style: none;
+}
 
 /*Секція наша команда Section-3*/
+.section3
+{
+    background: #f5f4fa;
+
+}
+.team-work
+{
+    display: flex;
+    align-items: center;
+}
 .section-our-team
 {
     font-family: Roboto; 
@@ -156,7 +292,10 @@
     font-size: 16px; 
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
     color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .section-profession
 {
@@ -167,6 +306,7 @@
     font-size: 16px; 
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
     color: #757575;
 }
 /*Стилізація секяції footer*/
@@ -174,7 +314,15 @@
 .footer
 {
     background: #2F303A;
+    padding-top: 60px;
+    right: 252px;
 }
+/*.footer-container
+{
+    width: 1200px;
+    right: 252px;
+}*/
+
 .logo-footer
 {
     font-family: Raleway; 
@@ -198,6 +346,11 @@
 {
     color:white
 }
+.adress-list
+{
+    padding-top:  20px;
+    padding-bottom: 60px;
+}
 .footer-adres-1
 {
     font-family: Roboto; 
@@ -220,6 +373,14 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;  
 }
+
+.list:not(:last-child)
+{
+    margin-bottom: 9px;
+}
+
+
+
 
 /*portfolio.html*/
 /*Стилізація та сторінки portfolio*/

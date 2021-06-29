@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link 
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css" integrity="sha512-sqIVMkf5f8XGYI/UZYGs7wODxlUeoj9JknataPfUwtvrSKWMHrMXGZ7Evb6nabFYJQG15vFFyALe6r0nWCD1Ug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body> 
     <!--Секція HEADER-->
     <header class="header">
+        <div class="container header-container">
         <nav class="navigation">
             <a class="logo" href="./"><span class="logo-web">Web</span><span class="logo-s">Studio</span></a>
             <ul class="menu">
@@ -27,26 +29,33 @@
                 </li>
             </ul>
         </nav>
-        <ul>
-            <li class="list">
+        <ul class="adress">
+            <li class="list-adress">
                 <a class="mail-link" href="emailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="list">
+            <li class="list-adress">
                 <a class="tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
     </header>
+
     <main>
         <!-- Секція HERO -->
-        <section>
+        <section class="section-hero">
+            <div class="container">
             <h1 class="hero-z">Эффективные решения 
                 для вашего бизнеса</h1>
             <button class="modal-btn" type="button">Заказать услугу</button>
+            </div>
         </section>
+
+
         <!--Секція ОСОБЕНОСТи  Section-1-->
-        <section>
+        <section class="section">
+            <div class="container features-container">
             <h2 hidden>Наши особенности</h2>
-            <ul>
+            <ul class="features-menu">
                 <li class="list">
                     <h2 class="hero-list">Внимание к деталям</h2>
                     <p class="hero-list-item">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -64,27 +73,32 @@
                     <p class="hero-list-item">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
+            </section>
         </section>
         <!--Секція Чем мы занимаемся Section-2-->
-        <section>
+        <section class="work section">
+            <div class="container">
             <h2 class="section-work">Чем мы занимаемся</h2>
-            <ul>
-                <li class="list">
+            <ul class="work-section" >
+                <li class="list1">
                     <img src="/images/img-1.jpg" alt="Внимание к деталям" width="370" height="294">
                 </li>
-                <li class="list">
+                <li class="list1">
                     <img src="./images/img-2.jpg" alt="Пунктуальность" width="370" height="294">
                 </li>
-                <li class="list">
+                <li class="list1">
                     <img src="./images/img-3.jpg" alt="Современные технологии" width="370" height="294">
                 </li>
             </ul>
+            </div>
         </section>
         <!--Секція Наша команда Section-3-->
-        <section>
+        <section class="section3 section">
+            <div class="container">
             <h2 class="section-work">Наша команда</h2>
-            <ul>
-                <li class="list">
+            <ul class="team-work">
+                <li class="list1">
                     <img src="/images/img-id.jpg" alt="Игорь Демьненко" width="270" height="260">
                     <h3 class="section-our-team">Игорь Демьяненко</h3>
                     <p class="section-profession">Product Designer</p>
@@ -104,18 +118,21 @@
                     <p class="section-profession">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container footer-container">
         <!--Контакти-->
         <a class="logo-footer" href="./"><span class="logo-footer-web">Web</span><span class="logo-footer-s">Studio</span></a>
         <address>
-        <ul>
+        <ul class="adress-list">
             <li class="list"><a class="footer-adres-1" href="https://goo.gl/maps/1ds3YkNvuFU2GXz48" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
             <li class="list"><a class="footer-adres-2" href="mailto:info@example.com">info@example.com</a></li>
             <li class="list"><a class="footer-adres-2" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
     </address>
+    </div>
     </footer>
 </body>
 </html>
