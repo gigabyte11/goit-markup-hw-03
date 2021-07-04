@@ -54,7 +54,7 @@ img{
 {
     margin-right: 93px;
 }
-.list:not(:last-child)
+.list-menu:not(:last-child)
 {
     margin-right: 50px;
 }
@@ -377,6 +377,7 @@ img{
 .list:not(:last-child)
 {
     margin-bottom: 9px;
+    margin-left: 8px;
 }
 
 
@@ -404,7 +405,10 @@ img{
 }
 
 .portfolio-list
-{
+{   
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
     font-family: Roboto; 
     font-style: normal; 
     font-weight: bold; 
@@ -414,7 +418,11 @@ img{
     color: #212121;
 }
 .portfolio-list-item
-{
+{   
+    margin-top: 4px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
     font-family: Roboto; 
     font-style: normal; 
     font-weight: normal; 
@@ -426,4 +434,34 @@ img{
 .list
 {
     list-style: none; /*прибирає точки в списку*/
+}
+
+.porfolio-menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;/*робить контент по центру*/
+}
+.list-portfolio-menu
+{
+    margin-top: 94px;
+    margin-bottom: 34px;
+    margin-left: 8px;
+}
+.portfolio-content
+{   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+.portfolio-list-content
+{   
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.border-portfolio
+{   
+    border: 1px #212121;
+
 }
