@@ -395,6 +395,8 @@ img{
     line-height: 1.63;
     letter-spacing: 0.03em;
     color: #212121;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }   
 .modal-btn-portfolio:hover,
@@ -405,7 +407,7 @@ img{
 }
 
 .portfolio-list
-{   
+{ 
     margin-top: 20px;
     margin-left: 24px;
     margin-right: 24px;
@@ -461,7 +463,8 @@ img{
     margin-bottom: 30px;
 }
 .border-portfolio
-{   
-    border: 1px #212121;
+{
+    border: 1px;
+    border-color: #188ce8;    
 
 }
