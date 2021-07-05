@@ -464,7 +464,7 @@ img{
 }
 .border-portfolio
 {
-    border: 1px;
-    border-color: #188ce8;    
+    border: 1px solid;
+    border-color: #eeeeee;    
 
 }
