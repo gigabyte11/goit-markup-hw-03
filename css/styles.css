@@ -76,7 +76,7 @@ img{
 .logo{
     font-family: Raleway; 
     font-style: normal; 
-    font-weight: bold; s
+    font-weight: bold;
     font-size: 26px; 
     line-height: 31px;
 
@@ -178,6 +178,7 @@ img{
     font-size: 44px; 
     line-height: 1.36;
     color: #FFFFFF;
+text-transform: uppercase;
 } 
 
 .modal-btn 
