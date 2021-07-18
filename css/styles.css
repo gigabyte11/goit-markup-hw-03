@@ -183,21 +183,21 @@ text-transform: uppercase;
 
 .modal-btn 
 {
- background: #188ce8;  
- border-radius:4px ; 
- padding: 10px 32px;
- font-family: Roboto; 
- font-style: normal; 
- font-weight: bold; 
- font-size: 16px; 
- line-height: 30px;
+    background: #188ce8;  
+    border-radius:4px ; 
+    padding: 10px 32px;
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 16px; 
+    line-height: 30px;
  /* identical to box height, 187% */
- align-items: center; 
- text-align: center; 
- letter-spacing: 0.06em;
- border-radius:4px ;
- color: #FFFFFF;
- cursor: pointer; 
+    align-items: center; 
+    text-align: center; 
+    letter-spacing: 0.06em;
+    border-radius:4px ;
+    color: #FFFFFF;
+    cursor: pointer; 
 }
 
 /*Стилізація секцій */
