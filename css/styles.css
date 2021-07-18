@@ -380,38 +380,30 @@ text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-sections-text);
 }
-.list
-{
+.list{
     list-style: none; /*прибирає точки в списку*/
 }
-
-.porfolio-menu
-{
+.porfolio-menu{
     display: flex;
     align-items: center;
     justify-content: center;/*робить контент по центру*/
 }
-.list-portfolio-menu
-{
+.list-portfolio-menu{
     margin-top: 94px;
     margin-bottom: 34px;
     margin-left: 8px;
 }
-.portfolio-content
-{   
+.portfolio-content{   
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 94px;
 }
-.portfolio-list-content
-{   
+.portfolio-list-content{   
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.border-portfolio
-{
+.border-portfolio{
     border: 1px solid;
     border-color: var(--color-border-portfolio);    
-
 }
