@@ -1,4 +1,25 @@
 /*Стилізація верхнього меню секції HEADER*/
+/*Перемінні*/
+:root{
+    --color-text: #2196F3;
+    --color-text-logo: black;  
+    --color-text-menu:#212121;
+    --color-text-mail-tel:#757575;
+    --color-text-section: #212121;
+    --color-sections-text:#757575;
+    --text-color-hero:#FFFFFF;
+    --color-text-footer-logo-s: white;
+    --color-border-portfolio: #EEEEEE;
+
+    --background-color-hero: #2f303a;
+    --background-color-btn: #188ce8;
+    --background-color-footer:#2F303A;
+    --background-color-section3: #F5F4FA;
+    --background-color-modal-btn-potfolio:#2196F3;
+
+    --font-family-text: Roboto;
+    --font-family-logo: Raleway;
+}
 /*Обнуление отступов*/
 h1,
 h2,
@@ -82,7 +103,7 @@ img{
 
 /* identical to box height */ 
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color:var(--color-text);
     text-decoration: none
     text-shadow: 0 4 4
     rgba(0,0.0,0.25);
@@ -90,11 +111,11 @@ img{
     }
 .logo-web
 {
-    color:#2196f3
+    color:var(--color-text);
 }
 .logo-s
 {
-    color:black
+    color:var(--color-text-logo);
 }
 /*Стилізація блокім меню: Студія,Потфоліо...*/
 .menu-link{
@@ -105,18 +126,18 @@ img{
     line-height: 1.14; 
     letter-spacing: 0.02em;
     
-    color: #212121;
+    color: var(--color-text-menu);
     text-decoration: none
 }
 .menu-link:hover,
 .menu-link:focus
 {
-    color: #2196f3
+    color:var(--color-text);
 }
 
 .menu-link.current
 {
-    color: #2196f3
+    color: var(--color-text);
 }
 
 /*Стилізація блоків меню тел, майл*/
@@ -128,7 +149,7 @@ img{
     line-height: 1.14; 
     letter-spacing: 0.02em;
     
-    color: #757575;
+    color: var(--color-text-mail-tel);
     text-decoration: none
 }
 .tel-link
@@ -139,25 +160,25 @@ img{
     font-size: 14px; 
     line-height: 1.14; 
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--color-text-mail-tel);
     text-decoration: none
 }
 .mail-link:hover,
 .mail-link:focus
 {
-    color: #2196f3
+    color: var(--color-text);
 }
 .tel-link:hover,
 .tel-link:focus
 {
-    color: #2196f3
+    color: var(--color-text);
 }
 
 
 /*Стилізація секції HERO*/
 .section-hero
 {
-    background: #2f303a;
+    background: var(--background-color-hero);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -177,13 +198,13 @@ img{
     font-weight: 900; 
     font-size: 44px; 
     line-height: 1.36;
-    color: #FFFFFF;
+    color: var(--text-color-hero);
 text-transform: uppercase;
 } 
 
 .modal-btn 
 {
-    background: #188ce8;  
+    background: var(--background-color-btn);  
     border-radius:4px ; 
     padding: 10px 32px;
     font-family: Roboto; 
@@ -196,7 +217,7 @@ text-transform: uppercase;
     text-align: center; 
     letter-spacing: 0.06em;
     border-radius:4px ;
-    color: #FFFFFF;
+    color: var(--text-color-hero);
     cursor: pointer; 
 }
 
@@ -235,7 +256,7 @@ text-transform: uppercase;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--color-text-section);
 }
 
 .hero-list-item
@@ -246,7 +267,7 @@ text-transform: uppercase;
     font-size: 14px; 
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-sections-text);
 }
 
 /*Секція чим займаємося Section-2*/
@@ -258,7 +279,7 @@ text-transform: uppercase;
     font-size: 36px; 
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--color-text-section);
     margin-bottom: 50px;
     text-align: center;
 }
@@ -277,7 +298,7 @@ text-transform: uppercase;
 /*Секція наша команда Section-3*/
 .section3
 {
-    background: #f5f4fa;
+    background: var(--background-color-section3);
 
 }
 .team-work
@@ -294,7 +315,7 @@ text-transform: uppercase;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: var(--color-text-section);
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -308,13 +329,13 @@ text-transform: uppercase;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #757575;
+    color: var(--color-sections-text);
 }
 /*Стилізація секяції footer*/
 
 .footer
 {
-    background: #2F303A;
+    background: var(--background-color-footer);
     padding-top: 60px;
     right: 252px;
 }
@@ -333,7 +354,7 @@ text-transform: uppercase;
     line-height: 1.19;
 /* identical to box height */ 
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--color-text);
     text-decoration: none
     text-shadow: 0 4 4
     rgba(0,0.0,0.25);
@@ -341,11 +362,11 @@ text-transform: uppercase;
 }
 .logo-footer-web
 {
-    color:#2196f3
+    color: var(--color-text);
 }
 .logo-footer-s
 {
-    color:white
+    color: var(--color-text-footer-logo-s);
 }
 .adress-list
 {
@@ -360,7 +381,7 @@ text-transform: uppercase;
     font-size: 14px; 
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--text-color-hero);
     text-decoration: none;
 }
 .footer-adres-2
@@ -395,7 +416,7 @@ text-transform: uppercase;
     font-size: 14px; 
     line-height: 1.63;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--color-text-menu);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -403,8 +424,8 @@ text-transform: uppercase;
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus
 {
-    color: #FFFFFF;
-    background: #2196f3;
+    color: var(--text-color-hero);
+    background: var(--background-color-modal-btn-potfolio);
 }
 
 .portfolio-list
@@ -418,7 +439,7 @@ text-transform: uppercase;
     font-size: 18px; 
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--color-text-section);
 }
 .portfolio-list-item
 {   
@@ -432,7 +453,7 @@ text-transform: uppercase;
     font-size: 16px; 
     line-height: 1.85;
     letter-spacing: 0.06em;
-    color: #757575;
+    color: var(--color-sections-text);
 }
 .list
 {
@@ -466,6 +487,6 @@ text-transform: uppercase;
 .border-portfolio
 {
     border: 1px solid;
-    border-color: #eeeeee;    
+    border-color: var(--color-border-portfolio);    
 
 }
