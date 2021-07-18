@@ -344,8 +344,8 @@ text-transform: uppercase;
 /*portfolio.html*/
 /*Стилізація та сторінки portfolio*/
 
-.modal-btn-portfolio
-{
+.modal-btn-portfolio{
+    padding: 6px 22px;
     font-size: 14px; 
     line-height: 1.63;
     letter-spacing: 0.03em;
@@ -360,29 +360,21 @@ text-transform: uppercase;
     color: var(--text-color-hero);
     background: var(--background-color-modal-btn-potfolio);
 }
-
-.portfolio-list
-{ 
+.portfolio-list{ 
     margin-top: 20px;
     margin-left: 24px;
-    margin-right: 24px;
-    font-family: Roboto; 
-    font-style: normal; 
+    margin-right: 24px; 
     font-weight: bold; 
     font-size: 18px; 
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--color-text-section);
 }
-.portfolio-list-item
-{   
+.portfolio-list-item{   
     margin-top: 4px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 24px;
-    font-family: Roboto; 
-    font-style: normal; 
-    font-weight: normal; 
     font-size: 16px; 
     line-height: 1.85;
     letter-spacing: 0.06em;
