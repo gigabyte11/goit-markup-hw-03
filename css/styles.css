@@ -337,10 +337,10 @@ text-transform: uppercase;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;  
 }
-.list/*:not(:last-child)*/{
+.list:not(:last-child){
     margin-bottom: 9px;
     margin-left: 8px;
-
+}
 /*portfolio.html*/
 /*Стилізація та сторінки portfolio*/
 
