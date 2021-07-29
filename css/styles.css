@@ -170,17 +170,17 @@ img{
 .hero-z{
     align-items: center;
     width: 696px;
-    margin-left: 245px;
+    margin: auto;
     margin-bottom: 30px;
-}
-.hero-z{
+
     font-style: normal; 
     font-weight: 900; 
     font-size: 44px; 
     line-height: 1.36;
     color: var(--text-color-hero);
-text-transform: uppercase;
-} 
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
 
 .modal-btn 
 {
@@ -205,16 +205,22 @@ text-transform: uppercase;
 {
     padding-top: 94px;
     padding-bottom: 94px;
+    margin: auto;
 }
 .features-container
 {
     display: flex;
     align-items: center;
 }
-.features-menu
-{
+.features-menu{
     display: flex;
     align-items: center;
+    margin-left: -30px;
+}
+.list-features{
+    width: 270px;
+    margin-left: 30px;
+
 }
 /*.list{
     width: 270px;
@@ -226,6 +232,7 @@ text-transform: uppercase;
 
 */
 .hero-list{
+    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -234,7 +241,11 @@ text-transform: uppercase;
     color: var(--color-text-section);
 }
 .hero-list-item{
-    line-height: 1.71;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--color-sections-text);
 }
@@ -245,7 +256,7 @@ text-transform: uppercase;
     padding-bottom: 94px;
 }
 .section-work{ 
-    margin-top: 10px;
+
     font-weight: bold; 
     font-size: 36px; 
     line-height: 1.16;
@@ -265,82 +276,123 @@ text-transform: uppercase;
 
 /*Секція наша команда Section-3*/
 .section3{
-    background: var(--background-color-section3);
+    background: #f5f4fa;
+    padding-bottom: 94px;
 }
-.team-work{
+.team-work
+{
     display: flex;
     align-items: center;
 }
-.section-our-team{ 
+.team-list/*:not(:last-child)*/{
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    list-style: none;
+    box-shadow: 
+0px 1px 3px rgba(0, 0, 0, 0.12), 
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-item{
+    padding: 30px 0px;
+}
+.section-our-team
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: 500; 
     font-size: 16px; 
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: var(--color-text-section);
-    margin-top: 30px;
+    color: #212121;
+
     margin-bottom: 10px;
 }
-.section-profession{
+.section-profession
+{
+    
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
     font-size: 16px; 
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: var(--color-sections-text);
+    color: #757575;
 }
 /*Стилізація секяції footer*/
 
-.footer{
-    background: var(--background-color-footer);
-    padding-top: 60px;
-    right: 252px;
-}
-/*.footer-container
+.footer
 {
-    width: 1200px;
-    right: 252px;
-}*/
-.logo-footer{
+    background: #2F303A;
+    padding-top: 60px;
+}
+.footer-container{
+    display: flex;
+    align-items: baseline;
+    /* width: 1200px;
+    right: 252px;*/
+}
+
+.logo-footer
+{
     font-family: Raleway; 
     font-style: normal; 
     font-weight: bold;
     font-size: 26px; 
     line-height: 1.19;
-/* identical to box height */ 
+
     letter-spacing: 0.03em;
-    color: var(--color-text);
-    text-decoration: none
+    color: #2196F3;
+    text-decoration: none;
     text-shadow: 0 4 4
     rgba(0,0.0,0.25);
     text-decoration: none /*прибирає підкреслення*/ 
 }
-.logo-footer-web{
-    color: var(--color-text);
+.logo-footer-web
+{
+    color:#2196f3
 }
-.logo-footer-s{
-    color: var(--color-text-footer-logo-s);
+.logo-footer-s
+{
+    color:white
 }
-.adress-list{
-    padding-top:  20px;
-    padding-bottom: 60px;
+.adress-list
+{
+    margin-top:  20px;
+    margin-bottom: 60px;
 }
-.footer-adres-1{
+.footer-adres-1
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
     font-size: 14px; 
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--text-color-hero);
+    color: #FFFFFF;
     text-decoration: none;
 }
-.footer-adres-2{
+.footer-adres-2
+{
+    font-family: Roboto; 
+    font-style: normal; 
+    font-weight: normal; 
     font-size: 14px; 
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;  
 }
-.list:not(:last-child){
+
+.list:not(:last-child)
+{
     margin-bottom: 9px;
     margin-left: 8px;
 }
+
 /*portfolio.html*/
 /*Стилізація та сторінки portfolio*/
 
