@@ -276,7 +276,7 @@ img{
 
 /*Секція наша команда Section-3*/
 .section3{
-    background: #f5f4fa;
+    background: var(--background-color-section3);
     padding-bottom: 94px;
 }
 .team-work
@@ -285,7 +285,7 @@ img{
     align-items: center;
 }
 .team-list/*:not(:last-child)*/{
-    background-color: #FFFFFF;
+    background-color:var(--text-color-hero);
     margin-right: 30px;
     list-style: none;
     box-shadow: 
@@ -306,8 +306,7 @@ img{
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
-
+    color: var(--color-text-menu);
     margin-bottom: 10px;
 }
 .section-profession
@@ -320,13 +319,13 @@ img{
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #757575;
+    color: var(--color-sections-text);
 }
 /*Стилізація секяції footer*/
 
 .footer
 {
-    background: #2F303A;
+    background: var(--background-color-footer);
     padding-top: 60px;
 }
 .footer-container{
@@ -345,7 +344,7 @@ img{
     line-height: 1.19;
 
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--color-text);
     text-decoration: none;
     text-shadow: 0 4 4
     rgba(0,0.0,0.25);
@@ -353,11 +352,11 @@ img{
 }
 .logo-footer-web
 {
-    color:#2196f3
+    color: var(--color-text);
 }
 .logo-footer-s
 {
-    color:white
+    color:var(--color-text-footer-logo-s)
 }
 .adress-list
 {
@@ -372,7 +371,7 @@ img{
     font-size: 14px; 
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--text-color-hero);
     text-decoration: none;
 }
 .footer-adres-2
@@ -439,23 +438,26 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;/*робить контент по центру*/
+
 }
 .list-portfolio-menu{
-    margin-top: 94px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     margin-left: 8px;
 }
 .portfolio-content{   
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 .portfolio-list-content{   
-    margin-right: 30px;
-    margin-bottom: 30px;
+    width: 370px;
 }
 .border-portfolio{
     border: 1px solid;
     border-color: var(--color-border-portfolio);    
+}
+.portfolio-content .portfolio-list-content{
+flex-basis: calc(100%/3 - 30px);
+margin-left: 30px;
+margin-top: 30px;
 }
