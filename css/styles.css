@@ -180,7 +180,7 @@ img{
     color: var(--text-color-hero);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-}
+}   
 
 .modal-btn 
 {
@@ -220,7 +220,6 @@ img{
 .list-features{
     width: 270px;
     margin-left: 30px;
-
 }
 /*.list{
     width: 270px;
